@@ -3,15 +3,16 @@
 
     <declare-styleable name="DropMenu">
 
-        <attr name="UnderLineColor" format="color"/>
-        <attr name="DividerColor" format="color"/>
-        <attr name="SelectedColor" format="color"/>
-        <attr name="UnSelectedColor" format="color"/>
-        <attr name="MenuBackgroundColor" format="color"/>
-        <attr name="MaskColor" format="color"/>
-        <attr name="MenuSelectedIcon" format="reference"/>
-        <attr name="MenuUnSelectedIcon" format="reference"/>
-        <attr name="MenuHeightPercent" format="float"/>
-        
+        <attr name="underLineColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="textSelectedColor" format="color"/>
+        <attr name="textUnSelectedColor" format="color"/>
+        <attr name="menuBackgroundColor" format="color"/>
+        <attr name="maskColor" format="color"/>
+        <attr name="menuTextSize" format="dimension"/>
+        <attr name="menuSelectedIcon" format="reference"/>
+        <attr name="menuUnSelectedIcon" format="reference"/>
+        <attr name="menuHeightPercent" format="float"/>
+
     </declare-styleable>
 </resources>
