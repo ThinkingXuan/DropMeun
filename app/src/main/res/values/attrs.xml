@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DropMenu">
+
+        <attr name="UnderLineColor" format="color"/>
+        <attr name="DividerColor" format="color"/>
+        <attr name="SelectedColor" format="color"/>
+        <attr name="UnSelectedColor" format="color"/>
+        <attr name="MenuBackgroundColor" format="color"/>
+        <attr name="MaskColor" format="color"/>
+        <attr name="MenuSelectedIcon" format="reference"/>
+        <attr name="MenuUnSelectedIcon" format="reference"/>
+        <attr name="MenuHeightPercent" format="float"/>
+        
+    </declare-styleable>
+</resources>
