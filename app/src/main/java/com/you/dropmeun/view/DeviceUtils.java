@@ -1,6 +1,6 @@
 
 
-package com.you.dropmeun;
+package com.you.dropmeun.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;

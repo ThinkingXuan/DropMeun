@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+
+
+<com.you.dropmeun.view.DropMenu
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dropDownMenu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.you.dropmeun.MainActivity">
+    app:dividerColor="@color/gray"
+    app:maskColor="@color/mask_color"
+    app:menuBackgroundColor="@color/white"
+    app:menuHeightPercent="0.5"
+    app:menuSelectedIcon="@mipmap/drop_down_selected_icon"
+    app:menuTextSize="13sp"
+    app:menuUnSelectedIcon="@mipmap/drop_down_unselected_icon"
+    app:textSelectedColor="@color/drop_down_selected"
+    app:textUnSelectedColor="@color/drop_down_unselected"
+    app:underLineColor="@color/gray"
+    />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-</android.support.constraint.ConstraintLayout>
